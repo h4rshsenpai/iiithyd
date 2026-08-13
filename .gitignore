@@ -1,0 +1,72 @@
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.gdbinit
+
+# ===== Environment / secrets =====
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# ===== C / C++ =====
+*.o
+*.obj
+*.d
+*.out
+*.a
+*.so
+*.exe
+*.elf
+*.img
+*.asm
+*.sym
+compile_commands.json
+
+# ===== General build/output =====
+out/
+target/
+*.class
+
+# ===== Dependencies =====
+node_modules/
+vendor/
+
+# ===== Coverage / test artifacts =====
+coverage/
+.coverage
+htmlcov/
+*.cover
+
+# ===== Misc =====
+*.bak
+*.tmp
+*.pid
